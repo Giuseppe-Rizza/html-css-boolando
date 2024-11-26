@@ -46,8 +46,6 @@ main {
 
 .clothes {
     width: 30%;
-    justify-content: center;
-    margin-bottom: 20px;
     padding: 20px;
     position: relative;
 }
@@ -68,4 +66,53 @@ color: red;}
     top: 400px;
     left: 20px;
     z-index: 400;
+}
+
+.sustainability-label {
+    padding: 5px;
+    background-color: rgb(14, 164, 14);
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    z-index: 400;
+}
+
+.centered-sustainability-label {
+    padding: 5px;
+    background-color: rgb(14, 164, 14);
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 400px;
+    left: 70px;
+    z-index: 400;
+}
+
+.heart-label {
+    padding: 5px;
+    background-color: white;
+    font-size: 28px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    z-index: 400;
+}
+
+.img-hover {
+    width: 30%;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(14, 12, 12, 0.5);
+    display: none;
+    z-index: 300;
+}
+
+.clothes:hover .img-hover {
+    display: block;
 }
