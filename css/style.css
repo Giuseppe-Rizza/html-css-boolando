@@ -23,8 +23,25 @@ ul {
     display: flex;
     flex-direction: row;
     color: white;
-    align-content: space-between;
+    justify-content: flex-start;
     padding: 10px;
 }
 
 /* regole blocco centrale */
+
+.products-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.clothes {
+    width: 30%;
+    justify-content: center;
+    margin bottom: 20px;
+    padding: 20px;
+}
+
+.clothes img {
+    max-width: 100%;
+}
