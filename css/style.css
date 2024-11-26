@@ -18,6 +18,7 @@ header {
 }
 
 ul {
+    list-style: none;
     text-decoration: none;
     display: flex;
     flex-direction: row;
