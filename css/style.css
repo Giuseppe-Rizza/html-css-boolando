@@ -109,6 +109,11 @@ color: black;
     z-index: 400;
 }
 
+.heart-label:hover {
+    display: block;
+    color: red;
+}
+
 .img-hover {
     width: 30%;
     padding: 20px;
